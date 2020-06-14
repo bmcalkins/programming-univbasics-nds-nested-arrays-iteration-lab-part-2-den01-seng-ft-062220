@@ -2,9 +2,10 @@ def find_min_in_nested_arrays(array_of_daily_tempratures)
  array_2 = []
 row_index = 0
 while row_index < array_2.count do
+  
   element_index = 0
   while element_index < array_2[row_index].count do
- 
+ minimum_value = 99999 
  
  if array_2[row_index][element_index][0] == "P"
       outer_results << array_2
